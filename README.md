@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🗣️ Let's Think out Load: Large Language Model exploration</h1>
+  <h1>🗣Let's Think out Load: Large Language Model exploration</h1>
 <!--   <p align="center">
     🐦 <a href="https://twitter.com/maximelabonne">Follow me on X</a> • 
     🤗 <a href="https://huggingface.co/mlabonne">Hugging Face</a> • 
