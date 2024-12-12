@@ -1,3 +1,14 @@
+<div align="center">
+  <h1>🗣️ Let's Think out Load: Large Language Model exploration</h1>
+<!--   <p align="center">
+    🐦 <a href="https://twitter.com/maximelabonne">Follow me on X</a> • 
+    🤗 <a href="https://huggingface.co/mlabonne">Hugging Face</a> • 
+    💻 <a href="https://mlabonne.github.io/blog">Blog</a> • 
+    📙 <a href="https://github.com/PacktPublishing/Hands-On-Graph-Neural-Networks-Using-Python">Hands-on GNN</a>
+  </p> -->
+</div>
+<br/>
+
 # Think-Out-Loud: Exploring-LLMs-
 
 Welcome to the LLM Discovery Repository!
