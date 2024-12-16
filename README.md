@@ -22,8 +22,22 @@ LLMs leverage the **autoregressive method**, where the next token in a sequence 
 </div>
 <br>
 
-> *Example: The LLM wants to answer this question "Where is the capital of France?" .*
-> <p align="center">*
-> <img src="path/to/your/image.png" alt="LLM Autoregressive Process" width="600">*
-> </p>*
-> sdsdsdsdsddsdsdsdsd*
+> *Example: The LLM wants to answer this question "What is the capital of France?"*
+> <p align="center">
+> <img src="Figures/LLM_auto_reg.png" alt="LLM Autoregressive Process" width="600">
+> </p>
+> The above figure illustrates the autoregressive process step by step:  
+
+>  1. **Step 1**: The input prompt *"What is the capital of France?"* is fed into the LLM, which predicts the first token: **"It"**.  
+> >    - Context so far: *"What is the capital of France? It"*.  
+
+>  2. **Step 2**: The model takes the updated context and predicts the next token: **"is"**.  
+> >    - Updated context: *"What is the capital of France? It is"*.  
+
+>  3. **Step 3**: With the expanded context, the model generates the next token: **"Paris"**.  
+> >    - Final context: *"What is the capital of France? It is Paris"*.
+
+<div style="text-align: center; line-height: 1.8;">
+   ✅  <strong>Token-by-Token:</strong> Predictions are made one word at a time. <br>
+   ✅  <strong>Context Matters:</strong> Each prediction uses the original prompt + previous outputs as input.
+</div>
