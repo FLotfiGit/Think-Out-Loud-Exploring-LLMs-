@@ -12,13 +12,13 @@ Let’s get started,
 
 ---
 
-## How Does LLM Generate an Answer?
+## 📌 How Does LLM Generate an Answer?
 
 LLMs leverage the **autoregressive method**, where the next token in a sequence is predicted based on all previously generated tokens. This approach enables LLMs to generate text step-by-step, with each token conditioned on the context of prior tokens, allowing coherent and contextually relevant outputs. Actually, the words come from:
 
 <div style="text-align: center; line-height: 1.8;">
-  - <strong>Auto:</strong> "Self" – It refers to the fact that the model relies on its own previous outputs (or previous values in a sequence) to make predictions. <br>
-  - <strong>Regressive:</strong> "Based on dependencies" – Each prediction depends on the values that came before it in the sequence.
+   💥  <strong>Auto:</strong> "Self" – It refers to the fact that the model relies on its own previous outputs (or previous values in a sequence) to make predictions. <br>
+   💥  <strong>Regressive:</strong> "Based on dependencies" – Each prediction depends on the values that came before it in the sequence.
 </div>
 <br>
 
