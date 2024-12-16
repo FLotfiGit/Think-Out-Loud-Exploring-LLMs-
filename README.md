@@ -16,3 +16,4 @@ This repository is a collaborative space where every comment, suggestion, or ins
 Let’s get started, 
 
 ## How Does LLM Genrates answer?
+LLMs leverage the autoregressive method, where the next token in a sequence is predicted based on all previously generated tokens. This approach enables LLMs to generate text step-by-step, with each token conditioned on the context of prior tokens, allowing coherent and contextually relevant outputs. Actually the words comes from:
