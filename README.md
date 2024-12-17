@@ -38,6 +38,6 @@ LLMs leverage the **autoregressive method**, where the next token in a sequence 
 > >    - Final context: *"What is the capital of France? It is Paris"*.
 
 <div style="text-align: center; line-height: 1.8;">
-   ✅  <strong>Token-by-Token:</strong> Predictions are made one word at a time. <br>
-   ✅  <strong>Context Matters:</strong> Each prediction uses the original prompt + previous outputs as input.
+   💥  <strong>Token-by-Token:</strong> Predictions are made one word at a time. <br>
+   💥  <strong>Context Matters:</strong> Each prediction uses the original prompt + previous outputs as input.
 </div>
