@@ -12,6 +12,6 @@ Let’s get started,
 
 ---
 <p align="center">*
-  <img src="./Figures/LLM_history.png" alt="LLM tree" width="600">*
+  <img src="./Figures/LLM_history.png" alt="LLM tree" width="900">*
 </p>*
 
