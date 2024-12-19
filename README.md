@@ -8,7 +8,7 @@ In this exploration, we aim to delve deeply into the details and concepts within
 
 This repository is a collaborative space where every comment, suggestion, or insight is valuable and can lead to meaningful discoveries. Together, let’s embark on this exciting adventure into the world of LLMs and uncover their incredible potential.
 
-Let’s get started,
+Let’s get started.
 
 ---
 <p align="center">*
