@@ -11,7 +11,7 @@ This repository is a collaborative space where every comment, suggestion, or ins
 Let’s get started.
 
 ---
-<p align="center">*
-  <img src="./Figures/LLM_history.png" alt="LLM tree" width="900">*
-</p>*
+<p align="center">
+  <img src="./Figures/LLM_history.png" alt="LLM tree" width="900">
+</p>
 
