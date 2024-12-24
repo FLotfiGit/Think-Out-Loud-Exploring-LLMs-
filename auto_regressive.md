@@ -1,8 +1,20 @@
 ## 📌 What We Are Talking About?
 
-Imagine trying to guess what someone will say next. That’s what an autoregressive model does—one word at a time, like filling in the blanks of a story. This is how does "autoregressive" work.
+Imagine trying to guess what someone will say next. That’s what an autoregressive model does one word at a time, like filling in the blanks of a story. This is how does "autoregressive" work.
+
+#### 🎯 **How Do They Think?**
+
+Autoregressive models predict one token based on the ones before it. It's like assembling a sentence piece by piece:
+
+>> ***P(sentence) = P(w₁) × P(w₂ | w₁) × P(w₃ | w₁, w₂) ...***
+
+But here’s the catch: they don’t look ahead they’re all about the past. what that is interpreted as ***causality*** in sequence generation.
+
+#### 🎯 **Causality**
 
 LLMs leverage the **autoregressive method**, where the next token in a sequence is predicted based on all previously generated tokens. This approach enables LLMs to generate text step-by-step, with each token conditioned on the context of prior tokens, allowing coherent and contextually relevant outputs. Actually, the words come from:
+
+
 
 <div style="text-align: center; line-height: 1.8;">
    💥  <strong>Auto:</strong> "Self" – It refers to the fact that the model relies on its own previous outputs (or previous values in a sequence) to make predictions. <br>
