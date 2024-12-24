@@ -1,4 +1,6 @@
-## 📌 How Does encoder-based LLM Generate an Answer?
+## 📌 What We Are Talking About?
+
+Imagine trying to guess what someone will say next. That’s what an autoregressive model does—one word at a time, like filling in the blanks of a story. This is how does "autoregressive" work.
 
 LLMs leverage the **autoregressive method**, where the next token in a sequence is predicted based on all previously generated tokens. This approach enables LLMs to generate text step-by-step, with each token conditioned on the context of prior tokens, allowing coherent and contextually relevant outputs. Actually, the words come from:
 
