@@ -11,6 +11,28 @@
 [![Framework](https://img.shields.io/badge/Framework-PyTorch-orange)](https://pytorch.org/)
 [![LLMs](https://img.shields.io/badge/LLMs-GPT2%20|%20LLAMA%20|%20BLOOM-red)](https://github.com)
 
+---
+
+## 📂 Table of Contents
+
+- [Overview](#-overview)
+- [Installation](#-installation)
+- [Auto-Regressive](#-auto-regressive)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+
+- [Deployment](#-deployment)
+  - [Kubernetes Deployment](#kubernetes-deployment)
+  - [Canary Deployment](#canary-deployment)
+  - [Monitoring and Logging](#monitoring-and-logging)
+- [Training and Evaluation](#-training-and-evaluation)
+- [Testing](#-testing)
+- [Future Work](#-future-work)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
+
+## 🚀 Overview
 
 In this exploration, we aim to delve deeply into the details and concepts within the realm of Large Language Models (LLMs). This journey is not about having all the answers upfront but about thinking out loud, openly sharing ideas, revisiting thoughts, and refining our understanding as we progress. Mistakes and course corrections are not just expected but embraced as part of the process.
 
@@ -23,3 +45,17 @@ Let’s get started.
   <img src="./Figures/LLM_history.png" alt="LLM tree" width="900">
 </p>
 
+---
+
+## 📦 Installation
+
+1. **Install Dependencies**:
+   ```bash
+   !pip install transformers
+   !pip install accelerate
+   !pip install datasets
+
+   ```
+---
+## 🌟 Auto-Regressive
+For more details on auto-regressive methods, refer to the [auto-regressive.md](./auto-regressive.md) file.
