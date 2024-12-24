@@ -8,19 +8,23 @@ Autoregressive models predict one token based on the ones before it. It's like a
 
 >> ***P(sentence) = P(w₁) × P(w₂ | w₁) × P(w₃ | w₁, w₂) ...***
 
-But here’s the catch: they don’t look ahead they’re all about the past. what that is interpreted as ***causality*** in sequence generation.
+But here’s the catch, they don’t look ahead, they’re all about the past. What that is interpreted as ***causality*** in sequence generation.
 
 #### 🎯 **Causality**
+Autoregressive models are fundamentally causal, meaning that each token is generated based exclusively on the sequence of tokens that came before it. No cheating by looking ahead—future tokens remain inaccessible during both training and inference. This design ensures that the generation respects the temporal flow of language, where the present depends only on the past.
 
+In practice:
+>>* *At any time step t, the model predicts w_t conditioned on the preceding tokens {w_1, w_2, ..., w_{t-1}}.*
+>>* *The **future context** {w_{t+1}, w_{t+2}, ... } \) is deliberately ignored, enforcing a strict left-to-right processing paradigm that respects causality.*
+
+#### 🎯 **Encoder-based LLM**
 LLMs leverage the **autoregressive method**, where the next token in a sequence is predicted based on all previously generated tokens. This approach enables LLMs to generate text step-by-step, with each token conditioned on the context of prior tokens, allowing coherent and contextually relevant outputs. Actually, the words come from:
 
 
 
-<div style="text-align: center; line-height: 1.8;">
-   💥  <strong>Auto:</strong> "Self" – It refers to the fact that the model relies on its own previous outputs (or previous values in a sequence) to make predictions. <br>
-   💥  <strong>Regressive:</strong> "Based on dependencies" – Each prediction depends on the values that came before it in the sequence.
-</div>
-<br>
+>>* ***💥Self** – It refers to the fact that the model relies on its own previous outputs (or previous values in a sequence) to make predictions.*
+>>* ***💥Based on dependencies** – Each prediction depends on the values that came before it in the sequence.*
+
 
 > *Example: The LLM wants to answer this question "What is the capital of France?"*
 > <p align="center">
